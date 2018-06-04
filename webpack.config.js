@@ -8,7 +8,7 @@ const extractSass = new ExtractTextPlugin({
 });
 module.exports = {
     // mode: 'production',
-    entry: { app: './src/index.js' },
+    entry: { app: './src/index.jsx' },
     output: {
         filename: '[name].[hash].js',
     },
